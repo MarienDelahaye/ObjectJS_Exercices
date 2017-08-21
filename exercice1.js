@@ -8,7 +8,14 @@ var user = {
     paymentmethod: "Visa and PayPal",
 getName: function() {
     alert(this.name);
+    
 }
 }
 // Functions //
-user.getName();
+function getInfos(){
+  alert(user.paymentmethod); 
+}
+function getFamilyName(){
+    alert(user.familyname);
+}
+// Script Part //
