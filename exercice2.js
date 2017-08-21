@@ -1,14 +1,17 @@
 // Variables //
 
-var character = new object();
-character.name = "Warrior Pepe";
-character.attack = "78";
-character.defense = "65";
-character.health = "236";
+var character = {
+    name: "Warrior Pepe",
+    health: "260",
+    attack: "148",
+    defense: "89",
+    description: function (){
+        var description = this.name + " a " + this.health + " Point de vie, " +
+        this.attack + " en attaque et " + this.defense + " Point de défense";
 
-var opponent = new object();
-opponent.name = "The warpriest";
-opponent.attack = "76";
+        return description;
+    }
+}
 
 
 // Functions //
@@ -17,4 +20,4 @@ opponent.attack = "76";
 
 
 // Script Part //
-
+alert(character.description())
