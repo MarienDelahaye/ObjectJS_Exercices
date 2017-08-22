@@ -20,6 +20,7 @@ var magician = {
     attack: 110,
     defense: 34,
     mana: 100,
+    healthspell: 20,
     level: 1,
 }
 
@@ -60,6 +61,12 @@ function getMagicianinfos(){
     alert("Current attack: " + magician.attack);
     alert("Current defense: " + magician.defense);
     alert("Current mana: " + magician.mana);
+    alert("Current spell value: " + magician.healthspell);
 }
+function magicianAttack(){
+    alert(magician.name + " Will attack " + opponent.name + " and " + character.name);
+    alert(opponent.name + " and " + character.name + " lost 100 health points ");
+}
+
 
 // Script Part //
