@@ -14,7 +14,14 @@ var opponent = {
     defense: 60,
     level: 1,
 }
-
+var magician = {
+    name: "A dankest memes magician",
+    health: 357,
+    attack: 110,
+    defense: 34,
+    mana: 100,
+    level: 1,
+}
 
 
 
@@ -45,6 +52,14 @@ function attackTurn(){
     alert(character.name + " got attacked he lost 41 health points")
     character.health = character.health -41;
     alert("Now" + character.name + " have " + character.health + " health");
+}
+function getMagicianinfos(){
+    alert("Name: " + magician.name);
+    alert("Current health: " + magician.health);
+    alert("Current level: " + magician.level);
+    alert("Current attack: " + magician.attack);
+    alert("Current defense: " + magician.defense);
+    alert("Current mana: " + magician.mana);
 }
 
 // Script Part //
