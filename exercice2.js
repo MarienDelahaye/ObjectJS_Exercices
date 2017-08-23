@@ -64,10 +64,16 @@ function getMagicianinfos(){
     alert("Current spell value: " + magician.healingspell);
 }
 function magicianAttack(){
-    alert(magician.name + " Will attack " + opponent.name + " and " + character.name);
-    alert(opponent.name + " and " + character.name + " lost 110 health points ");
-    opponent.health = opponent.health -110;
-    character.health = character.health -110;
+alert(character.name + " and " + opponent.name + " Will attack " + magician.name);
+alert(magician.name + " lost 70 health points");
+magician.health = magician.health -70;
+alert(magician.name + " is trying to heal himself");
+magician.health = magician.health +10;
+magician.mana = magician.mana -10;
+alert("Current magician health:" + magician.health);
+alert(magician.name + " Will attack " + opponent.name + " he lost 67 health points " );
+opponent.health = opponent.health -67;
+alert("Current health of " + opponent.name + " : " + opponent.health);
 }
 function magicianHealing(){
     alert("Current magician health: " + magician.health);
