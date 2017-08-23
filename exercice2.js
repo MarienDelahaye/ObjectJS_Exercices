@@ -15,7 +15,7 @@ var opponent = {
     level: 1,
 }
 var magician = {
-    name: "A dankest memes magician",
+    name: "A dankest meme",
     health: 357,
     attack: 110,
     defense: 34,
@@ -82,5 +82,3 @@ function magicianHealing(){
     magician.mana = magician.mana -20;
     alert("Current magician health: " + magician.health + " Current mana: " + magician.mana);
 }
-
-// Script Part //
