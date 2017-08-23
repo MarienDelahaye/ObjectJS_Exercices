@@ -1,4 +1,4 @@
-// Variables //
+// Variables Objects //
 
 var character = {
     name: "A dankest warrior",

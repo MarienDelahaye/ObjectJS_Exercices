@@ -1,4 +1,4 @@
-// Variables //
+// Variables Objects //
 
 var user = {
     name: "Marien",
