@@ -42,7 +42,7 @@ function getOpponentinfos(){
     alert("Current health: " + opponent.health);
     alert("Current level: " + opponent.level);
     alert("Current attack: " + opponent.attack);
-    alert("Current defense:" + opponent.defense);
+    alert("Current defense: " + opponent.defense);
 }
 function attackTurn(){
     alert(character.name + " will attack " + opponent.name);
