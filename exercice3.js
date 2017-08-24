@@ -14,8 +14,10 @@ var formManagement = {
 
 // Functions //
 
-function form(){
-    datasheet.title = document.getElementById("title").value;
+function formManage(){
+    dataSheet.title = document.getElementById("title").value;
+    dataSheet.description = document.getElementById("description").value;
+    dataSheet.catchSentence = document.getElementById("catchsentence").value;
 }
 
 

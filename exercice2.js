@@ -53,6 +53,8 @@ function attackTurn(){
     alert(character.name + " got attacked he lost 41 health points")
     character.health = character.health -41;
     alert("Now" + character.name + " have " + character.health + " health");
+    character.level = character.level +1;
+    alert(character.name + " is now level " + character.level);
 }
 function getMagicianinfos(){
     alert("Name: " + magician.name);
