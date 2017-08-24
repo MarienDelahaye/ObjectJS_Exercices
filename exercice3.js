@@ -14,7 +14,9 @@ var formManagement = {
 
 // Functions //
 
-
+function form(){
+    datasheet.title = document.getElementById("title").value;
+}
 
 
 
